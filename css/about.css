@@ -1,0 +1,146 @@
+
+/*@media (max-width: 576px) { */
+ }
+
+/*@media (min-width: 768px) { 
+ }
+
+@media (min-width: 992px) { 
+ }
+
+@media (min-width: 1200px) { 
+ }*/
+ [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.navbar{
+		height: 150px;
+		background-color: black;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+	   }
+.founder{
+		 width: 500px;
+		 height: 749px;
+		 background-image: url(../images/founder.jpg);
+		 float: left;
+		 margin-top: 50px;
+		 margin-bottom: 50px;
+		}
+.underline{
+		   color: yellow;
+		  }
+.underline:hover{
+				 color: tomato;
+				 transition-delay: 0.4s;
+				}
+.paragraph{
+		   width: 600px;
+		   height: 400px;
+		   float: left;
+		   color: white;
+		   margin-left: 10px;
+		  }
+.title{
+	   color: darkgrey;
+	   font-family: 'Ibarra Real Nova', serif;
+	   float: left;
+	   margin-top: 300px; 
+	   color: black;
+	  }
+.statement{
+		   color: white;
+		   font-family: 'Ibarra Real Nova', serif;
+		   float: left;
+		   width: 100%;
+		   height: 100%;
+		  }
+.titles{
+		margin-top: 10px;
+		margin-left: 500px;
+		font-family: 'Ibarra Real Nova', serif;
+		float: left;
+		color: black;
+	   }
+.undertext{
+	       margin-left: 400px;
+	       margin-top: 800px;
+		  }
+.section{
+	     width: 100%;
+	     background-color: lightblue;
+	     height: 200px;
+	     font-family: 'Montserrat', sans-serif;
+	     float: left;	     
+		}
+.subsection{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 80px;
+			float: left;
+			text-align: center;
+		   }
+.subsection1{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 100px;
+			float: left;
+			text-align: center;
+		   }
+.icons{
+       color: white;
+       font-size: 30px;
+       text-align: center;
+       width: 100%;
+       height: 40px;
+       float: left;
+       background-color: grey;
+      }
+.copyright{
+	       text-align: center;
+	       background: black;
+	       color: white;
+	       font-size: 10px;
+	       font-family: 'Ibarra Real Nova', serif;
+	       width: 100%;
+	       height: 15px;
+	       float: left;
+		  }

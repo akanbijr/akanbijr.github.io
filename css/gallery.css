@@ -1,0 +1,160 @@
+.body{
+	 background-color: lightblue;
+	}
+img{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+   }
+.Mimages{
+	     width: 500px;
+	     height: 333px;
+	     /*margin-left:25%;*/
+	     /*margin-top:100px;*/
+	     margin-bottom: 600px;
+	     float: left;
+	     display: block;
+	     background-repeat: no-repeat;
+		 background-attachment: fixed;
+ 	     background-position: center;
+  		 background-size: cover;
+	    }
+slider{
+	   display: block;
+	   width: 500px;
+	   overflow: hidden;
+	   position: absolute;
+	   height:333px;
+	  }
+slider > *{
+		   position: absolute;
+		   display: block;
+		   width: 500px;
+		   height: 333px;
+		   animation: slide 12s infinite;
+		   overflow: hidden;
+		  }
+slide:nth-child(1){
+				   left: 0%;
+				   animation-delay: -1s;
+				   background-image: url(../images/hamster2.jpg);
+				   background-size: cover;
+				   background-position: center; 
+                  }
+slide:nth-child(2){
+				   animation-delay: 2s;
+				   background-image: url(../images/cat3.jpg);
+				   background-size: cover;
+				   background-position: center; 
+                  }
+slide:nth-child(3){
+				   animation-delay: 5s;
+				   background-image: url(../images/dog2.jpg);
+				   background-size: cover;
+				   background-position: center; 
+				  }
+slide:nth-child(4){
+					left: 0%;
+					animation-delay: 8s;
+					background-image: url(../images/fish.jpg);
+					background-size: cover;
+					background-position: center; 
+				   }
+@keyframes slide{
+				 0%{ left: 100%;width: 100%; }
+				 5%{ left: 0%; }
+				 25%{ left: 0%; }
+				 30%{ left: -100%; width: 100%;}
+				 30.0001%{ left: -100%; width: 0%; }
+			     100%{left: 100%;width: 0%;}
+				}
+.flipbox{
+	   width: 500px;
+	   float: left;
+	   height: 333px;
+	   border: 1px solid #8AB28A;
+	   margin: 50px;
+	  }
+.container{
+		   position: relative;
+		   width: 500px;
+		   height: 333px;
+		  }
+.card{
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  transform-style: preserve-3d;
+	  transition: all 0.5s ease;
+	 }
+.card:hover{
+			transform: rotateY(180deg);
+		   }
+.img1{
+	   width: 100%;
+	   height: 100%;
+	   position: absolute;
+	   backface-visibility: hidden;
+	   background-image: url(../images/ggg.jpg);
+	  }
+.img2{
+	   width: 100%;
+	   height: 100%;
+	   position: absolute;
+	   background-image: url(../images/photo-1534822916-212967756e82.jpg);
+	   backface-visibility: hidden;
+	   transform: rotateY(180deg);
+	  }
+.passion{
+		 height: 334px;
+		 width: 500px;
+		 margin-right: 100%;
+		 /*margin-top: 100px;*/
+		 float: left;
+		 background-image: url(../images/passion.jpg);
+		}
+/*.mr-3{
+	  margin-top: 100px;
+}*/
+.section{
+	     width: 100%;
+	     margin-top: 600px;
+	     background-color: #8AB28A;
+	     height: 200px;
+	     font-family: 'Montserrat', sans-serif;
+		}
+.subsection{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 80px;
+			float: left;
+			text-align: center;
+		   }
+.subsection1{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 100px;
+			float: left;
+			text-align: center;
+		   }
+.icons{
+       color: white;
+       font-size: 30px;
+       text-align: center;
+       width: 100%;
+       height: 40px;
+       background-color: grey;
+      }
+.copyright{
+	       text-align: center;
+	       background: black;
+	       color: white;
+	       font-size: 10px;
+	       font-family: 'Ibarra Real Nova', serif;
+	       width: 100%;
+	       height: 15px;
+		  }

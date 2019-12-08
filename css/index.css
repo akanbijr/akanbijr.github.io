@@ -1,0 +1,107 @@
+.navbar{
+		height: 150px;
+		background-color: black;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+	   }
+.logo{
+	  height: 100px;
+	  width: 100px;
+	  box-shadow: 2px 2px 3px black;
+	 }
+.jumbotron{
+		   margin-top: 200px;
+		   font-family: 'Montserrat', sans-serif;	
+		  }
+.flexbox{
+		 display: flex;
+		 flex-wrap: wrap;
+		 justify-content: center;
+		 margin-top: 150px;
+		}
+.zoom{
+      transition: transform .3s;
+      width: 500px;
+      height: 333px;
+     }
+.zoom:hover{
+	        transition-delay: 0.3s;
+            transform: scale(1.1);
+           }
+.map{
+	 margin-top: 30px;
+	 margin-left: 137px;
+	}
+form{
+     border: 3px solid #f1f1f1;
+     font-family: Arial;
+     margin-left: 10px;
+     margin-top: 20px;
+     margin-bottom: 15px;
+	}
+.container{
+		   padding: 20px;
+		   background-color: #f1f1f1;
+		  }
+input[type=text], input[type=submit]{
+								     width: 100%;
+								     padding: 12px;
+								     margin: 8px 0;
+								     display: inline-block;
+								     border: 1px solid #ccc;
+								     box-sizing: border-box;
+									}
+input[type=checkbox]{
+  					 margin-top: 16px;
+					}
+input[type=submit]{
+				    background-color: lightblue;
+				    color: white;
+				    border: none;
+				   }
+input[type=submit]:hover{
+  						  color: black;
+				         }	
+.section{
+	     width: 100%;
+	     background-color: #8AB28A;
+	     height: 200px;
+	     font-family: 'Montserrat', sans-serif;
+		}
+.subsection{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 80px;
+			float: left;
+			text-align: center;
+		   }
+.subsection1{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 100px;
+			float: left;
+			text-align: center;
+		   }
+.icons{
+       color: white;
+       font-size: 30px;
+       text-align: center;
+       width: 100%;
+       height: 40px;
+       background-color: grey;
+      }
+.copyright{
+	       text-align: center;
+	       background: black;
+	       color: white;
+	       font-size: 10px;
+	       font-family: 'Ibarra Real Nova', serif;
+	       width: 100%;
+	       height: 15px;
+		  }

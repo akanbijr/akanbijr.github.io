@@ -1,0 +1,90 @@
+.navbar{
+		height: 150px;
+		background-color: black;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+		margin-bottom: 100pxl
+	   }
+.logo{
+	  height: 100px;
+	  width: 100px;
+	  box-shadow: 2px 2px 3px black;
+	 }
+.name{
+	  margin-top: 100px;
+	}
+.firstname{
+		   border-radius: 5px;
+		   width: 40%;
+		   font-family: 'Open Sans', sans-serif;
+		   margin-left: 10px;
+		   height: 20%;
+		   margin-top: 80px;
+		  }
+.lastname{
+		  border-radius: 5px;
+		  width: 40%;
+		  font-family: 'Open Sans', sans-serif; 
+		  margin-left: 10px;
+		 }
+.email{
+	   border-radius: 5px;
+	   width: 20%;
+	   font-family: 'Open Sans', sans-serif;
+	   float: left; 
+	   margin-top: 30px; 
+	   margin-left: 10px; 
+	   height:10%;
+	  }
+.message{
+		 border-radius: 5px; 
+		 width: 80%;
+		 font-family: 'Open Sans', sans-serif; 
+		 margin-right: 300px;
+		 margin-top: 30px;
+		 height:300px; 
+		 margin-left: 10px;
+	    }
+.section{
+	     width: 100%;
+	     background-color: lightblue;
+	     height: 200px;
+	     font-family: 'Montserrat', sans-serif;
+		}
+.subsection{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 80px;
+			float: left;
+			text-align: center;
+		   }
+.subsection1{
+			height: 130px;
+			width: 25%;
+			margin-top: 50px;
+			font-family: 'Open Sans', sans-serif; 
+			margin-left: 100px;
+			float: left;
+			text-align: center;
+		   }
+.icons{
+       color: white;
+       font-size: 30px;
+       text-align: center;
+       width: 100%;
+       height: 40px;
+       background-color: grey;
+      }
+.copyright{
+	       text-align: center;
+	       background: black;
+	       color: white;
+	       font-size: 10px;
+	       font-family: 'Ibarra Real Nova', serif;
+	       width: 100%;
+	       height: 15px;
+		  }
